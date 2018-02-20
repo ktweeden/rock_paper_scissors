@@ -3,19 +3,19 @@ require_relative '../models/game'
 
 class TestGame < MiniTest::Test
 
-  def test_play__player_wins
+  def test_play__player1_wins
     result = Game.play("rock", "scissors")
-    assert_equal("win", result)
+    assert_equal("Player 1 wins", result)
   end
 
-  def test_play__player_lose
+  def test_play__player2_wins
     result = Game.play("paper", "scissors")
-    assert_equal("lose", result)
+    assert_equal("Player 2 wins", result)
   end
 
   def test_play__player_draw
     result = Game.play("rock", "rock")
-    assert_equal("draw", result)
+    assert_equal("You draw", result)
   end
 
 end
