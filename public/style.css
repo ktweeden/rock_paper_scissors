@@ -1,0 +1,43 @@
+li {
+  list-style: none;
+  font-size: 1.5rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(222, 7, 123);
+}
+
+h1 {
+  text-align: center;
+  font-size: 3rem;
+}
+
+p {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+i {
+  margin: 0.5rem .7rem;
+  opacity: 0.7;
+}
+
+i:hover {
+  opacity: 1;
+}
+
+.fa-hand-rock {
+  color: rgb(222, 7, 123);
+}
+
+.fa-hand-paper {
+  color: rgb(5, 117, 209);
+}
+
+.fa-hand-scissors {
+  color: rgb(11, 164, 77);
+}
